@@ -30,8 +30,8 @@ describe('Page', () => {
   it('displays technologies section', () => {
     render(<Page />)
     expect(screen.getByText('Technologies We Work With')).toBeInTheDocument()
-    expect(screen.getByText('React')).toBeInTheDocument()
+    expect(screen.getByText('React.js')).toBeInTheDocument()
     expect(screen.getByText('Next.js')).toBeInTheDocument()
-    expect(screen.getByText('TypeScript')).toBeInTheDocument()
+    expect(screen.getByText('Node.js')).toBeInTheDocument()
   })
 })

@@ -10,7 +10,7 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="mx-auto max-w-[800px] text-gray-600 md:text-xl dark:text-gray-300">
-            Ready to hire skilled Filipino developers? Let's discuss your project requirements 
+            Ready to hire skilled Filipino developers? Let&apos;s discuss your project requirements 
             and find the perfect talent for your team.
           </p>
         </div>
@@ -191,19 +191,28 @@ export default function Contact() {
         <h3 className="text-xl font-semibold mb-6">Connect With Us</h3>
         <div className="flex justify-center space-x-6">
           <a
-            href="#"
+            href="https://linkedin.com/company/projedee"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on LinkedIn"
             className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
           >
             <FaLinkedin className="w-8 h-8" />
           </a>
           <a
-            href="#"
+            href="https://github.com/projedee"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on GitHub"
             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
           >
             <FaGithub className="w-8 h-8" />
           </a>
           <a
-            href="#"
+            href="https://twitter.com/projedee"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Twitter"
             className="text-gray-600 hover:text-blue-400 dark:text-gray-400 dark:hover:text-blue-300 transition-colors"
           >
             <FaTwitter className="w-8 h-8" />

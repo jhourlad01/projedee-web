@@ -1,8 +1,6 @@
-import Image from "next/image";
 import { 
   SiNextdotjs, 
   SiReact, 
-  SiReactrouter, 
   SiNestjs, 
   SiNodedotjs, 
   SiVuedotjs, 

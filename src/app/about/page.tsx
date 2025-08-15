@@ -54,13 +54,13 @@ export default function AboutPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">2. Use License</h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Permission is granted to temporarily download one copy of the materials on ProjeDee's 
+            Permission is granted to temporarily download one copy of the materials on ProjeDee&apos;s 
             website for personal, non-commercial transitory viewing only.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">3. Disclaimer</h3>
           <p className="text-gray-600 dark:text-gray-300">
-            The materials on ProjeDee's website are provided on an 'as is' basis. ProjeDee makes 
+            The materials on ProjeDee&apos;s website are provided on an &apos;as is&apos; basis. ProjeDee makes 
             no warranties, expressed or implied, and hereby disclaims and negates all other 
             warranties including without limitation, implied warranties or conditions of 
             merchantability, fitness for a particular purpose, or non-infringement of 
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <p className="text-gray-600 dark:text-gray-300">
             In no event shall ProjeDee or its suppliers be liable for any damages (including, 
             without limitation, damages for loss of data or profit, or due to business interruption) 
-            arising out of the use or inability to use the materials on ProjeDee's website.
+            arising out of the use or inability to use the materials on ProjeDee&apos;s website.
           </p>
         </div>
       </section>

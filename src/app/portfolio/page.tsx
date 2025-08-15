@@ -74,7 +74,7 @@ export default function PortfolioPage() {
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold">Our Portfolio</h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Explore our successful projects and see how we've helped businesses transform 
+          Explore our successful projects and see how we&apos;ve helped businesses transform 
           their digital presence with innovative software solutions.
         </p>
       </div>
@@ -129,7 +129,7 @@ export default function PortfolioPage() {
       <div className="text-center py-12 bg-gray-50 dark:bg-gray-900 rounded-lg">
         <h2 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-          Let's discuss how we can help bring your vision to life with our expertise 
+          Let&apos;s discuss how we can help bring your vision to life with our expertise 
           in modern software development and digital transformation.
         </p>
         <a
