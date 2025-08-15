@@ -7,23 +7,31 @@ describe('Page', () => {
     expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument()
   })
 
-  it('displays the main heading', () => {
+  it('displays the main heading about hiring Filipino developers', () => {
     render(<Page />)
-    expect(screen.getByText('Welcome to ProjeDee')).toBeInTheDocument()
+    expect(screen.getByText('Hire Filipino Developers & Talents')).toBeInTheDocument()
   })
 
-  it('contains navigation links', () => {
+  it('contains call to action buttons', () => {
     render(<Page />)
-    const learnMoreLink = screen.getByText('Learn More')
-    const getStartedLink = screen.getByText('Get Started')
-    expect(learnMoreLink).toBeInTheDocument()
-    expect(getStartedLink).toBeInTheDocument()
+    const hireNowLink = screen.getByText('Hire Now')
+    const viewWorkLink = screen.getByText('View Our Work')
+    expect(hireNowLink).toBeInTheDocument()
+    expect(viewWorkLink).toBeInTheDocument()
   })
 
-  it('displays feature cards', () => {
+  it('displays value proposition cards', () => {
     render(<Page />)
+    expect(screen.getByText('Skilled Filipino Talent')).toBeInTheDocument()
+    expect(screen.getByText('Competitive Rates')).toBeInTheDocument()
+    expect(screen.getByText('Reliable Delivery')).toBeInTheDocument()
+  })
+
+  it('displays technologies section', () => {
+    render(<Page />)
+    expect(screen.getByText('Technologies We Work With')).toBeInTheDocument()
+    expect(screen.getByText('React')).toBeInTheDocument()
     expect(screen.getByText('Next.js')).toBeInTheDocument()
     expect(screen.getByText('TypeScript')).toBeInTheDocument()
-    expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
   })
 })

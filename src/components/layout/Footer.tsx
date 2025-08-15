@@ -22,16 +22,22 @@ export function Footer() {
         </div>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
           <Link
-            href="/privacy"
+            href="/"
             className="transition-colors hover:text-foreground"
           >
-            Privacy
+            Home
           </Link>
           <Link
-            href="/terms"
+            href="/about"
             className="transition-colors hover:text-foreground"
           >
-            Terms
+            About
+          </Link>
+          <Link
+            href="/portfolio"
+            className="transition-colors hover:text-foreground"
+          >
+            Portfolio
           </Link>
           <Link
             href="/contact"
