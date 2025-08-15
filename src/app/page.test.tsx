@@ -4,22 +4,26 @@ import Page from './page'
 describe('Page', () => {
   it('renders without crashing', () => {
     render(<Page />)
-    expect(screen.getByRole('main')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument()
   })
 
-  it('displays the Next.js logo', () => {
+  it('displays the main heading', () => {
     render(<Page />)
-    expect(screen.getByAltText('Next.js logo')).toBeInTheDocument()
+    expect(screen.getByText('Welcome to ProjeDee')).toBeInTheDocument()
   })
 
   it('contains navigation links', () => {
     render(<Page />)
-    const links = screen.getAllByRole('link')
-    expect(links.length).toBeGreaterThan(0)
+    const learnMoreLink = screen.getByText('Learn More')
+    const getStartedLink = screen.getByText('Get Started')
+    expect(learnMoreLink).toBeInTheDocument()
+    expect(getStartedLink).toBeInTheDocument()
   })
 
-  it('contains the main content list', () => {
+  it('displays feature cards', () => {
     render(<Page />)
-    expect(screen.getByRole('list')).toBeInTheDocument()
+    expect(screen.getByText('Next.js')).toBeInTheDocument()
+    expect(screen.getByText('TypeScript')).toBeInTheDocument()
+    expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
   })
 })
